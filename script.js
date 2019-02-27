@@ -49,10 +49,6 @@ var element = $("#button");
 var stamp = $("#data");
 var array = [];
 
-function girino() {
-  alert("girino");
-}
-
 element.click(function() {
   var rndValue = getRandom();
   console.log(rndValue + " diviso 2 - RESTO = " + (rndValue%2));
